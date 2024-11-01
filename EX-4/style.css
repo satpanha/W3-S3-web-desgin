@@ -1,0 +1,131 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2e2e2e;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profile-image {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.verified-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #0300a8;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats h3 {
+    font-size: 14px;
+    color: #888;
+}
+
+.stats p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.describe {
+    font-size: 13px;
+    color: #777;
+    margin: 15px 0;
+    padding: 0 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.social-links a {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.facebook { background-color: #3b5998; }
+.twitter { background-color: #1da1f2; }
+.google { background-color: #dd4b39; }
+.linkedin { background-color: #0077b5; }
+
+.profile-button {
+    padding: 10px 20px;
+    border: 2px solid #0077b5;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #0077b5;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile-button:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
